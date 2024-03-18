@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-// ==============================|| ELEMENT REFERENCE HOOKS  ||============================== //
+// ==============================|| CUSTOM HOOKS  ||============================== //
 
 function useBlogsLikes(existingArray, newArray) {
   const [mergedArray, setMergedArray] = useState([]);

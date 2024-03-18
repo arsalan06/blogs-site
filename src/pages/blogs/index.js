@@ -5,7 +5,7 @@ import FeatureCard from '../../components/blogsComponets/Cards/FeatureCard';
 import BlogListContainer from '../../components/blogsComponets/BlogListContainer';
 import { useDispatch, useSelector } from 'react-redux';
 import { addBlogsViews, fetchBlogs } from '../../redux/slices/blogSlice';
-import useBlogsLikes from '../../assets/Hooks/useBlogsLikes';
+import useBlogsLikes from '../../Hooks/useBlogsLikes';
 
 function Blogs() {
   const dispatch = useDispatch();
